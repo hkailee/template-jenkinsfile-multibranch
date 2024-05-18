@@ -3,7 +3,7 @@ def registry = 'https://registry.slowcoder.com'
 
 pipeline{
     agent{
-        label 'workers'
+        label 'Built-In Node'
     }
 
     stages{
