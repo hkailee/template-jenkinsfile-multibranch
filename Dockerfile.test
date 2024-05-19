@@ -2,6 +2,7 @@ FROM python:3.7.3
 
 WORKDIR /app 
 
+RUN pip install --upgrade pip
 RUN pip install unittest-xml-reporting
 
 COPY test_main.py .
